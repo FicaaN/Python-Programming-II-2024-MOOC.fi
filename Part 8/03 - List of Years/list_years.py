@@ -19,3 +19,4 @@ if __name__ == '__main__':
 
     years = list_years([date1, date2, date3])
     print(years)
+    

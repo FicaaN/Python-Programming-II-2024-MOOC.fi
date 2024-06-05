@@ -14,3 +14,4 @@ if __name__ == '__main__':
     print(fluffy.name)
     print(fluffy.species)
     print(fluffy.year_of_birth)
+    

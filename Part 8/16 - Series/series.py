@@ -40,7 +40,7 @@ def includes_genre(genre: str, series_list: list):
             genre_list.append(series)
     return genre_list
 
-# This part is for testing out
+# This part is for testing
 if __name__ == '__main__':
     
     dexter = Series("Dexter", 8, ["Crime", "Drama", "Mystery", "Thriller"])

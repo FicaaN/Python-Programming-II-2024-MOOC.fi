@@ -20,3 +20,4 @@ if __name__ == '__main__':
     person3 = {"name": "Larry", "result1": 3, "result2": 1, "result3": 1}
 
     print(smallest_average(person1, person2, person3))
+    

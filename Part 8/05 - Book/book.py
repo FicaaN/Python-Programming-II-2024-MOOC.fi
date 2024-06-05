@@ -6,7 +6,6 @@ class Book:
         self.genre = genre
         self.year = year
 
-
 if __name__ == '__main__':
     
     python = Book("Fluent Python", "Luciano Ramalho", "programming", 2015)
@@ -14,3 +13,4 @@ if __name__ == '__main__':
 
     print(f"{python.author}: {python.name} ({python.year})")
     print(f"The genre of the book {everest.name} is {everest.genre}")
+    

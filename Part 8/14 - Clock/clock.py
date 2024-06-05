@@ -15,6 +15,7 @@ class Clock:
                 self.hours += 1
                 if self.hours == 24:
                     self.hours = 0
+
     def set(self, new_hours: int, new_minutes: int):
         self.hours = new_hours
         self.minutes = new_minutes
