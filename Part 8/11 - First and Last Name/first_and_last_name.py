@@ -1,5 +1,4 @@
 class Person:
-
     def __init__(self, name: str):
         self.name = name
     
@@ -10,7 +9,6 @@ class Person:
         return self.name.split(' ')[1]
 
 if __name__ == "__main__":
-    
     peter = Person("Peter Pythons")
     print(peter.return_first_name())
     print(peter.return_last_name())

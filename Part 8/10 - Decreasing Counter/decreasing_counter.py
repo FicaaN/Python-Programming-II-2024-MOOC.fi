@@ -1,5 +1,4 @@
 class DecreasingCounter:
-
     def __init__(self, initial_value: int):
         self.value = initial_value
         self.initial_value = initial_value
@@ -20,7 +19,6 @@ class DecreasingCounter:
         self.value = self.initial_value
 
 if __name__ == '__main__':
-    
     counter = DecreasingCounter(55)
     counter.decrease()
     counter.decrease()

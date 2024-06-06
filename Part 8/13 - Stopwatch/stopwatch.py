@@ -1,5 +1,4 @@
 class Stopwatch:
-
     def __init__(self):
         self.seconds = 0
         self.minutes = 0
@@ -16,7 +15,6 @@ class Stopwatch:
         return f"{self.minutes:02d}:{self.seconds:02d}"
     
 if __name__ == '__main__':
-    
     watch = Stopwatch()
     for i in range(500):
         print(watch)

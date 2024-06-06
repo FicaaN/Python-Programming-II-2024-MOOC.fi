@@ -1,5 +1,4 @@
 class Pet:
-
     def __init__(self, name: str, species: str, year_of_birth: int):
         self.name = name
         self.species = species
@@ -9,7 +8,6 @@ def new_pet(name: str, species: str, year_of_birth: int):
     return Pet(name, species, year_of_birth)
 
 if __name__ == '__main__':
-    
     fluffy = new_pet("Fluffy", "dog", 2017)
     print(fluffy.name)
     print(fluffy.species)

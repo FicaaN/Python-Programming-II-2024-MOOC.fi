@@ -1,5 +1,4 @@
 class Clock:
-
     def __init__(self, hours: int, minutes: int, seconds: int):
         self.hours = hours
         self.minutes = minutes
@@ -25,7 +24,6 @@ class Clock:
         return f"{self.hours:02d}:{self.minutes:02d}:{self.seconds:02d}"
     
 if __name__ == '__main__':
-    
     clock = Clock(23, 59, 55)
     print(clock)
     clock.tick()

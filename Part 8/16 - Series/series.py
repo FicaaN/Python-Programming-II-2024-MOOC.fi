@@ -1,5 +1,4 @@
 class Series:
-    
     def __init__(self, title: str, seasons: int, genres: list):
         self.title = title
         self.seasons = seasons
@@ -42,7 +41,6 @@ def includes_genre(genre: str, series_list: list):
 
 # This part is for testing
 if __name__ == '__main__':
-    
     dexter = Series("Dexter", 8, ["Crime", "Drama", "Mystery", "Thriller"])
     print(dexter)
 

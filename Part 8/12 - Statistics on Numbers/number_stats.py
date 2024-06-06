@@ -1,5 +1,4 @@
 class  NumberStats:
-    
     def __init__(self):
         self.numbers = 0
         self.sum = 0

@@ -1,5 +1,4 @@
 class ShoppingList:
-
     def __init__(self):
         self.products = []
 
@@ -24,7 +23,6 @@ def total_units(my_list: ShoppingList):
         return units
 
 if __name__ == '__main__':
-    
     my_list = ShoppingList()
     my_list.add("bananas", 10)
     my_list.add("apples", 5)
