@@ -9,14 +9,12 @@ class RealProperty:
         return self.square_meters > compared_to.square_meters
 
     def price_difference(self, compared_to):
-        # Function abs returns absolute value
         difference = abs((self.price_per_sqm * self.square_meters) - (compared_to.price_per_sqm * compared_to.square_meters))
         return difference
 
     def more_expensive(self, compared_to):
         difference = (self.price_per_sqm * self.square_meters) - (compared_to.price_per_sqm * compared_to.square_meters)
         return difference > 0
-
 
     def __repr__(self):
         return (f'RealProperty(rooms = {self.rooms}, square_meters = {self.square_meters}, ' + 
