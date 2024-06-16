@@ -32,6 +32,7 @@ while True:
     window.fill((0, 0, 0))
     window.blit(robot, (x1, y1))
     window.blit(robot, (x2, y2))
+    
     pygame.display.flip()
 
     #First robot movement from side to side 

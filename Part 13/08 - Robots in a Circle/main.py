@@ -14,6 +14,7 @@ height = robot.get_height()
 angle = 0
 radius = 150
 number = 10
+
 clock = pygame.time.Clock()
  
 while True:

@@ -1,9 +1,9 @@
 import pygame
 
 pygame.init()
+
 window_width = 640
 window_height = 480
-
 window = pygame.display.set_mode((window_width, window_height))
 
 robot = pygame.image.load("robot.png")

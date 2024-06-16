@@ -14,6 +14,7 @@ red = (255, 0, 0)
 blue = (0, 0, 255)
 
 window = pygame.display.set_mode((window_width, window_height))
+
 pygame.display.set_caption("Clock")
 
 clock = pygame.time.Clock()
@@ -51,6 +52,7 @@ while running:
     draw_hand(second_angle, clock_radius * 0.9, blue)
     
     pygame.display.flip()
+
     clock.tick(60)
 
 pygame.quit()

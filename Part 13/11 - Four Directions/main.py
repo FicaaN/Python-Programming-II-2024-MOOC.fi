@@ -1,6 +1,7 @@
 import pygame
 
 pygame.init()
+
 window_width = 640
 window_height = 480
 window = pygame.display.set_mode((window_width, window_height))
@@ -53,6 +54,7 @@ while True:
 
     window.fill((0, 0, 0))
     window.blit(robot, (x, y))
+    
     pygame.display.flip()
 
     clock.tick(60)

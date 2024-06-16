@@ -14,6 +14,7 @@ x = 0
 y = 0
 velocity = 1
 direction = 1 # direction 1 = right, 2 = down, 3 = left, 4 = up
+
 clock = pygame.time.Clock()
 
 while True:
@@ -23,8 +24,8 @@ while True:
 
     window.fill((0, 0, 0))
     window.blit(robot, (x, y))
-    pygame.display.flip()
 
+    pygame.display.flip()
 
     if direction == 1:                               
         x += velocity

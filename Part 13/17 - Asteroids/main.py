@@ -8,6 +8,7 @@ window_height = 480
 window = pygame.display.set_mode((window_width, window_height))
 
 pygame.display.set_caption("Asteroids")
+
 font = pygame.font.SysFont("Arial", 22)
 BLACK = (0, 0, 0)
 
@@ -23,6 +24,7 @@ to_right = False
 to_left = False
 
 clock = pygame.time.Clock()
+
 game_over = False
 
 while True:

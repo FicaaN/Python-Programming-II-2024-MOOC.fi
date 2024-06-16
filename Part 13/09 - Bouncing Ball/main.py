@@ -15,6 +15,7 @@ x = 320
 y = 240
 xvelocity = 2
 yvelocity = 2
+
 clock = pygame.time.Clock()
 
 while True:
@@ -24,6 +25,7 @@ while True:
 
     window.fill((0, 0, 0))    
     window.blit(ball, (x, y))
+    
     pygame.display.flip()
 
     if x + width >= 640 or x <= 0:

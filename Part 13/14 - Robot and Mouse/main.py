@@ -25,6 +25,7 @@ while True:
 
     window.fill((0, 0, 0))
     window.blit(robot, (x, y))
+    
     pygame.display.flip()
 
     clock.tick(60)

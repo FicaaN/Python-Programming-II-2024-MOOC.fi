@@ -90,6 +90,7 @@ while True:
     window.fill((0, 0, 0))
     window.blit(robot1, (x1, y1))
     window.blit(robot2, (x2, y2))
+    
     pygame.display.flip()
 
     clock.tick(60)
