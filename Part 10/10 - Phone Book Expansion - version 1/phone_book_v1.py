@@ -1,4 +1,3 @@
-# WRITE YOUR SOLUTION HERE:
 class PhoneBook:
     def __init__(self):
         self.__persons = {}

@@ -7,7 +7,6 @@ class WordGame():
         self.rounds = rounds
 
     def round_winner(self, player1_word: str, player2_word: str):
-        # determine a random winner
         return random.randint(1, 2)
 
     def play(self):
@@ -24,7 +23,7 @@ class WordGame():
                 self.wins2 += 1
                 print("player 2 won")
             else:
-                pass # it's a tie
+                pass
 
         print("game over, wins:")
         print(f"player 1: {self.wins1}")
