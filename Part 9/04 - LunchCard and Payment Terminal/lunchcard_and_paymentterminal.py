@@ -9,7 +9,8 @@ class LunchCard:
         if self.balance >= amount:
             self.balance -= amount
             return True
-        else: return False
+        else:
+            return False
 
 class PaymentTerminal:
     def __init__(self):
@@ -23,7 +24,6 @@ class PaymentTerminal:
         if payment >= regular_lunch:
             self.funds += regular_lunch
             self.lunches += 1
-            
             return payment - regular_lunch
         else:
             return payment
@@ -34,7 +34,6 @@ class PaymentTerminal:
         if payment >= special_lunch:
             self.funds += special_lunch
             self.specials += 1
-
             return payment - special_lunch
         else:
             return payment
@@ -45,7 +44,8 @@ class PaymentTerminal:
         if card.balance >= regular_lunch:
             self.lunches += 1
             return card.subtract_from_balance(regular_lunch)
-        else: return False
+        else:
+            return False
 
     def eat_special_lunchcard(self, card: LunchCard):
         special_lunch = 4.30
@@ -53,7 +53,8 @@ class PaymentTerminal:
         if card.balance >= special_lunch:
             self.specials += 1
             return card.subtract_from_balance(special_lunch)
-        else: return False
+        else:
+            return False
 
     def deposit_money_on_card(self, card: LunchCard, amount: float):
         card.deposit_money(amount)

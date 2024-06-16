@@ -39,7 +39,8 @@ class Suitcase:
     def __str__(self):
         if len(self.__suitcase_items) == 1:
             return f"{len(self.__suitcase_items)} item ({self.weight()} kg)"
-        else: return f"{len(self.__suitcase_items)} items ({self.weight()} kg)"
+        else:
+            return f"{len(self.__suitcase_items)} items ({self.weight()} kg)"
 
 class CargoHold:
     def __init__(self, max_weight: int):
@@ -61,7 +62,8 @@ class CargoHold:
     def __str__(self):
         if len(self.__cargo_items) == 1:
             return f"{len(self.__cargo_items)} suitcase, space for {self.__max_weight - self.weight()} kg"
-        else: return f"{len(self.__cargo_items)} suitcases, space for {self.__max_weight - self.weight()} kg"
+        else:
+            return f"{len(self.__cargo_items)} suitcases, space for {self.__max_weight - self.weight()} kg"
 
 if __name__ == '__main__':
     book = Item("ABC Book", 2)
@@ -81,3 +83,4 @@ if __name__ == '__main__':
 
     print("The suitcases in the cargo hold contain the following items:")
     cargo_hold.print_items()
+    
