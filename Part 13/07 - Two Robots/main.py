@@ -10,13 +10,11 @@ robot = pygame.image.load("robot.png")
 width = robot.get_width()
 height = robot.get_height()
 
-# First robot
 x1 = 0
 y1 = 100
 velocity1 = 1
 direction1 = 1    # 1 = right, 2 = left
 
-# Second robot 
 x2 = 0
 y2 = 200
 velocity2 = 2
@@ -34,8 +32,7 @@ while True:
     window.blit(robot, (x2, y2))
     
     pygame.display.flip()
-
-    #First robot movement from side to side 
+ 
     if direction1 == 1:
         x1 += velocity1
         if x1 >=  window_width - width:
@@ -44,8 +41,7 @@ while True:
         x1 -= velocity1
         if x1 <=  0:
             direction1 = 1
-    
-    #First robot movement from side to side 
+     
     if direction2 == 1:
         x2 += velocity2
         if x2 >=  window_width - width:
